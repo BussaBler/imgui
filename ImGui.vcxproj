@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|x64">
+			<Configuration>Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{EAFD279B-D35F-5E56-B365-E87E89602DB1}</ProjectGuid>
+		<RootNamespace>ImGui</RootNamespace>
+		<Keyword>MakeFileProj</Keyword>
+		<VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseOfMfc>false</UseOfMfc>
+		<PlatformToolset>v143</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+	<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">echo Starting SCons &amp;&amp; &quot;C:\Users\Bussab\AppData\Local\Programs\Python\Python313\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-4.9.1&apos;), join(sys.prefix, &apos;scons-4.9.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;C:\Users\Bussab\Documents\USP\Codes C++\Axiom&quot; -f SConstruct &quot;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Build\ImGui\ImGui.lib&quot;</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">echo Starting SCons &amp;&amp; &quot;C:\Users\Bussab\AppData\Local\Programs\Python\Python313\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-4.9.1&apos;), join(sys.prefix, &apos;scons-4.9.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;C:\Users\Bussab\Documents\USP\Codes C++\Axiom&quot; -f SConstruct &quot;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Build\ImGui\ImGui.lib&quot;</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">echo Starting SCons &amp;&amp; &quot;C:\Users\Bussab\AppData\Local\Programs\Python\Python313\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-4.9.1&apos;), join(sys.prefix, &apos;scons-4.9.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;C:\Users\Bussab\Documents\USP\Codes C++\Axiom&quot; -f SConstruct -c &quot;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Build\ImGui\ImGui.lib&quot;</NMakeCleanCommandLine>
+		<NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Build\ImGui\ImGui.lib</NMakeOutput>
+		<NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AX_DEBUG;AX_ENABLE_ASSERTS;AX_PLATFORM_WINDOWS</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Vendor\VulkanSDK\1.4.321.1\Include;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Vendor\ImGui;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Source;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Source\Axiom;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Vendor\glm;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Vendor\VulkanSDK\1.4.321.1\Include;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Vendor\ImGui;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Theorem\Source;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Source;C:\Users\Bussab\Documents\USP\Codes C++\Axiom\Axiom\Source\Axiom</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+		<AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/Zi /Od /EHsc /nologo /FS  /TP  /std:c++20 /Zc:__cplusplus</AdditionalOptions>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="SConstruct" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
+<!-- SCons Data:
+gASVfQQAAAAAAAB9lIwJRGVidWd8eDY0lIwPU0NvbnMuVG9vbC5tc3ZzlIwGQ29uZmlnlJOUKYGUfZQojAtidWlsZHRhcmdldJSMQ0M6XFVzZXJzXEJ1c3NhYlxEb2N1bWVudHNcVVNQXENvZGVzIEMrK1xBeGlvbVxCdWlsZFxJbUd1aVxJbUd1aS5saWKUjAZvdXRkaXKUjACUjAdjbWRhcmdzlGgKjApjcHBkZWZpbmVzlIwLY29sbGVjdGlvbnOUjAVkZXF1ZZSTlClSlCiMCEFYX0RFQlVHlIwRQVhfRU5BQkxFX0FTU0VSVFOUjBNBWF9QTEFURk9STV9XSU5ET1dTlGWMCGNwcGZsYWdzlIwKU0NvbnMuVXRpbJSMBUNMVmFylJOUKYGUfZSMBGRhdGGUXZQojAMvWmmUjAMvT2SUjAUvRUhzY5SMBy9ub2xvZ2+UjAMvRlOUjAIkKJSMAy9UUJSMAiQplIwKL3N0ZDpjKysyMJSMDy9aYzpfX2NwbHVzcGx1c5Rlc2KMB3J1bmZpbGWUaAiMCGNwcHBhdGhzlF2UKIxWQzpcVXNlcnNcQnVzc2FiXERvY3VtZW50c1xVU1BcQ29kZXMgQysrXEF4aW9tXEF4aW9tXFZlbmRvclxWdWxrYW5TREtcMS40LjMyMS4xXEluY2x1ZGWUjEBDOlxVc2Vyc1xCdXNzYWJcRG9jdW1lbnRzXFVTUFxDb2RlcyBDKytcQXhpb21cQXhpb21cVmVuZG9yXEltR3VplIw6QzpcVXNlcnNcQnVzc2FiXERvY3VtZW50c1xVU1BcQ29kZXMgQysrXEF4aW9tXEF4aW9tXFNvdXJjZZSMQEM6XFVzZXJzXEJ1c3NhYlxEb2N1bWVudHNcVVNQXENvZGVzIEMrK1xBeGlvbVxBeGlvbVxTb3VyY2VcQXhpb22UjD5DOlxVc2Vyc1xCdXNzYWJcRG9jdW1lbnRzXFVTUFxDb2RlcyBDKytcQXhpb21cQXhpb21cVmVuZG9yXGdsbZSMVkM6XFVzZXJzXEJ1c3NhYlxEb2N1bWVudHNcVVNQXENvZGVzIEMrK1xBeGlvbVxBeGlvbVxWZW5kb3JcVnVsa2FuU0RLXDEuNC4zMjEuMVxJbmNsdWRllIxAQzpcVXNlcnNcQnVzc2FiXERvY3VtZW50c1xVU1BcQ29kZXMgQysrXEF4aW9tXEF4aW9tXFZlbmRvclxJbUd1aZSMPEM6XFVzZXJzXEJ1c3NhYlxEb2N1bWVudHNcVVNQXENvZGVzIEMrK1xBeGlvbVxUaGVvcmVtXFNvdXJjZZSMOkM6XFVzZXJzXEJ1c3NhYlxEb2N1bWVudHNcVVNQXENvZGVzIEMrK1xBeGlvbVxBeGlvbVxTb3VyY2WUjEBDOlxVc2Vyc1xCdXNzYWJcRG9jdW1lbnRzXFVTUFxDb2RlcyBDKytcQXhpb21cQXhpb21cU291cmNlXEF4aW9tlGWMB3ZhcmlhbnSUjAVEZWJ1Z5SMCHBsYXRmb3JtlIwDeDY0lHVicy4=
+gASVXAAAAAAAAAB9lCiMDFNvdXJjZSBGaWxlc5RdlIwMSGVhZGVyIEZpbGVzlF2UjA1Mb2NhbCBIZWFkZXJzlF2UjA5SZXNvdXJjZSBGaWxlc5RdlIwLT3RoZXIgRmlsZXOUXZR1Lg==-->
