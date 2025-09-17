@@ -11,7 +11,7 @@ vsproj = build_info['vsproj']
 current_env = debug_env if config.lower() == 'debug' else release_env
 config_name = config.capitalize()
 
-obj_prefix = f'/Bin-Int/{platform}-{architecture}/{config_name}/'
+obj_prefix = f'Bin-Int/{platform}-{architecture}/{config_name}/'
 current_env['OBJPREFIX'] = obj_prefix
 
 imgui_src_dir = Dir('../../Axiom/Vendor/ImGui')
